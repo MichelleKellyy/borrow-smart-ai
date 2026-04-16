@@ -1,9 +1,6 @@
 # borrow-smart-ai
 Building this because I always want to read a book right away and also like getting AI to tell me which i'm gonna like, which gets to be a hassle as a picky reader
 
-## Tech Stack
-
-
 ## API & Data Source
 
 This project uses OverDrive's internal Thunder API (thunder-api.overdrive.com), the same backend that powers the Libby app. It is undocumented, unofficial, and requires no authentication.
