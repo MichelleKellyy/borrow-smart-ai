@@ -3,17 +3,11 @@ Building this because I always want to read a book right away and also like gett
 
 ## API & Data Source
 
-This project uses OverDrive's internal Thunder API (thunder-api.overdrive.com), the same backend that powers the Libby app. It is undocumented, unofficial, and requires no authentication.
+This project experiments with publicly reachable OverDrive/Libby-related catalog endpoints discovered through publicly accessible API documentation.
 
-This is a personal project, not affiliated with or endorsed by OverDrive. It is not intended for production use. OverDrive may restrict access at any time. For production apps, use the official API at [developer.overdrive.com](https://developer.overdrive.com/).
+These endpoints are not part of the officially supported public developer program for third-party production use.
 
-### Endpoints used
-GET /v2/libraries/{libraryKey} — *library lookup*
+This project is for personal learning and prototyping only, is not affiliated with OverDrive, and may require changes if data access methods evolve.
 
-GET /v2/libraries/{libraryKey}/media — *title search*
-
-GET /v2/libraries/{libraryKey}/media/{titleId}/availability — *availability*
-
-POST /v2/libraries/{libraryKey}/media/availability — *bulk availability*
-
-GET /v2/libraries/{libraryKey}/media/{titleId}/recommended — *recommendations*
+For official integrations, see:
+[developer.overdrive.com](https://developer.overdrive.com/)
