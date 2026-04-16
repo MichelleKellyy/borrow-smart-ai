@@ -1,2 +1,2 @@
 # borrow-smart-ai
-An AI-powered book recommendation platform that helps users discover books available through their library systems. It combines personalized recommendations with availability-aware ranking to surface titles users can borrow immediately.
+Building this because I always want to read a book right away and also like getting AI to tell me which i'm gonna like, which gets to be a hassle as a picky reader
